@@ -1,0 +1,126 @@
+.about-section {
+    background-color: #f8f8f8;
+
+    &__img {
+        position: relative;
+        width: 100%;
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+            max-height: 276px;
+            object-fit: cover;
+        }
+    }
+
+    //   OVERLAY
+    &__overlay {
+        background: #000;
+        border-radius: 10px;
+        bottom: 0;
+        height: 100%;
+        left: 0;
+        max-height: 276px;
+        opacity: .4;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+    }
+
+    &__main-text {
+        margin-top: 2rem;
+    }
+
+    &__title {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color: #fff;
+        transform: translate(-50%, -50%);
+        font-size: 64px;
+        line-height: 96px;
+        letter-spacing: 0.25px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        @media (max-width: 1200px) {
+            font-size: 52px;
+        }
+
+        @media (max-width: 768px) {
+            font-size: 40px;
+        }
+
+        @media (max-width: 576px) {
+            font-size: 32px;
+        }
+
+        @media (max-width: 375px) {
+            font-size: 28px;
+        }
+    }
+
+    &__text-title {
+        margin: 0;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 45px;
+        margin-top: 2rem;
+        margin-bottom: 0.625rem;
+        position: relative;
+        padding-left: 1rem;
+
+        @include media-breakpoint-down(lg) {
+            font-size: 27px;
+        }
+
+        @include media-breakpoint-down(md) {
+            font-size: 22px;
+        }
+
+        @include media-breakpoint-down(sm) {
+            font-size: 14px;
+            line-height: 15px;
+        }
+    }
+    &__text-title::after{
+        content: "";
+        position: absolute;
+        background-color: $primary;
+        width: 3px;
+        height: 100%;
+        bottom: 0%;
+        left: 0%;
+    }
+
+    &__plain-text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: justify;
+        line-height: 24px;
+        text-align: justify;
+        color: #808080;
+        margin-bottom: 0;
+
+        @media (max-width: 576px) {
+            font-size: 12px;
+        }
+    }
+
+    ul {
+        padding-left: 1rem;
+    }
+
+    ul li {
+        list-style: disc;
+        padding-left: 0.2rem;
+        color: #808080;
+        line-height: 24px;
+        text-align: justify;
+
+        @media (max-width: 576px) {
+            font-size: 12px;
+        }
+    }
+}

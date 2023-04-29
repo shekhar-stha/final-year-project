@@ -1,0 +1,38 @@
+.add-members-page {
+    padding-bottom: 1rem;
+    form {
+
+        .segment{
+            display: flex;
+            div{
+                width: 49%;
+            }
+        }
+        .topic {
+            width: fit-content;
+        }
+
+        .header {
+            font-size: 1.2rem;
+            margin-bottom: 3rem;
+            position: relative;
+            margin-top: 2.7rem;
+        }
+
+        .header::after {
+            position: absolute;
+            content: '';
+            background-color: $primary;
+            height: 2px;
+            border-radius: 20px;
+            width: 10%;
+            left: 0;
+            bottom: -10px;
+        }
+
+        input,
+        select {
+            height: 3rem;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+.remaining-days-chart {
+    width: 50%;
+    height: fit-content;
+    .text-report {
+        transform: translate(100%,-450%);
+        width: 80px;
+        text-align: center;
+        font-weight: 500
+    }
+}

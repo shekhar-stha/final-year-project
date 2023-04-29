@@ -1,0 +1,39 @@
+.notice-page {
+    .notices {
+        .notice {
+            .topic {
+                font-size: 18px;
+                font-weight: 600;
+            }
+
+            .description {
+                font-size: 16px;
+                font-weight: 400;
+                color: #5a5a5a;
+            }
+
+            .date {
+                font-size: 13px;
+                color: $primary;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+.spinner-grow {
+    display: block;
+    position: fixed;
+    top: calc(50% - (58px / 2));
+    right: calc(50% - (58px / 2));
+    color: $secondary;
+}
+
+.backdrop {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.2);
+}

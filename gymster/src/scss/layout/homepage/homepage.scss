@@ -1,0 +1,25 @@
+@import "./hero.scss";
+
+.hero-nav-mix {
+    @media (min-width:1200px) {
+        height: 100vh;
+    }
+}
+
+.container-header {
+    font-size: 1.9rem;
+    font-weight: 600;
+    margin-bottom: 2.3rem;
+    position: relative;
+}
+
+.container-header::after{
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 4px;
+    border-radius: 10px;
+    left: 0;
+    bottom: -12px;
+    background-color: $primary;
+}

@@ -1,0 +1,50 @@
+.shipping-details {
+
+    .form-control, .form-select {
+        padding: 0.7rem;
+        cursor: pointer;
+        max-height: 48px;
+        font-size: 1rem;
+    }
+
+    .home-delivery{
+        div{
+            label{
+                width: 185px;
+                height: 44px;
+                border: 2px solid #D6D6D6;
+                border-radius: 5px;
+                background-color: #fff;
+                padding-left: 17px;
+                color: #808080;
+                cursor: pointer;
+                @media (max-width:520px) {
+                    width: 160px
+                }
+                input{
+                    cursor: pointer;
+                }
+            }
+
+            .red-border{
+                border: 2px solid red;
+            }
+
+        }
+    }
+
+    //typography
+    .fw-500{
+        font-weight: 500;
+    } 
+    .fs-14{
+        font-size: 14px;
+    }
+    .fs-16{
+        font-size: 16px;
+    }
+    a{
+        cursor: pointer;
+    }
+
+}

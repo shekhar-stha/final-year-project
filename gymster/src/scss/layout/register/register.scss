@@ -1,0 +1,18 @@
+.register-box{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 30px;
+    overflow: hidden;
+    width: 85%;
+
+    @media (max-width: 576px) {
+        width: 100%;
+    }
+
+    .form-control{
+        height: 2.9rem;
+    }
+
+    .bg-img{
+        filter: brightness(90%);
+    }
+}

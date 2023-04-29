@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap");
+
+// customizing bootstrap colors
+$primary: #f55410;
+$secondary: #08276d;
+$warning: #ff4d00;
+$success: #667bcf;
+$black: #000000;
+$softBlack: #1F1D2B;
+$white: #fff;
+$info: #808080;
+
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1180px,
+    xxl: 1320px,
+);
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px,
+);
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+.fs-14 {
+    font-size: 14px;
+}
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-17 {
+    font-size: 17px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-19 {
+    font-size: 19px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-21 {
+    font-size: 21px;
+}
+
+.fs-22 {
+    font-size: 22px;
+}
+
+.fs-23 {
+    font-size: 23px;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+h5 {
+    font-size: 1rem;
+    color: $black;
+  }
+
+  h6 {
+    font-size: 0.875rem;
+    color: $black;
+    font-weight: 500;
+  }
+
+  p {
+    margin: 0px;
+  }
+
+  .btn-primary{
+    color: #ffffff;
+  }
+
+  .btn-primary:hover, .btn-warning:hover, .btn-success:hover {
+    color: #ffffff;
+}
+  .btn-warning{
+    color: #ffffff;
+  }
+
+  .btn-success{
+    color: #ffffff;
+  }
+
+// 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    text-decoration: none !important;
+}
+
+a{
+    color: #000000;
+}
+
+.text-red{
+    color: #aa0707;
+}
+
+.text-green{
+    color: #14e20d;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+  }

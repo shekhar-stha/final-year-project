@@ -1,0 +1,68 @@
+.tab {
+    background-color: #1F1D2B;
+    height: 100vh;
+    overflow-y: scroll;
+    border-bottom-right-radius: 4px;
+
+    .brand {
+        width: 70%;
+        object-fit: contain;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    a {
+        width: 100%;
+        color: #cccbcb;
+        font-size: 15px;
+        margin-bottom: 0.4rem;
+        padding: 0.7rem 0rem;
+        border-radius: 9px;
+        border: 2px solid #1F1D2B;
+        text-align: left;
+        padding-left: 1rem;
+
+        .fi {
+            font-size: 15px;
+            margin-right: 0.5rem;
+        }
+    }
+
+    a:hover {
+        color: #FAFAFA;
+    }
+
+    .active {
+        background-color: $primary;
+        border-radius: 9px;
+        border: none;
+        color: #FAFAFA;
+    }
+
+    .active:hover {
+        color: #FAFAFA;
+        border: none;
+    }
+}
+
+/* width */
+.tab::-webkit-scrollbar {
+    width: 2px;
+}
+
+/* Track */
+.tab::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+.tab::-webkit-scrollbar-thumb {
+    background: #1F1D2B;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.tab::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+}

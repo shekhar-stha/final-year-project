@@ -1,0 +1,38 @@
+.notices {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+
+    .notice-box {
+        .topic {
+            font-size: 22px;
+            color: #423c3c;
+        }
+
+        .date {
+            font-size: 14px;
+            color: $info;
+
+        }
+
+        .row {
+            overflow: inherit !important;
+        }
+
+        .description {
+            max-height: calc(1.6em * 3);
+            line-height: 1.6em;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+        }
+
+        img {
+            width: 2rem;
+            border-radius: 50%;
+            margin-right: auto;
+        }
+    }
+}

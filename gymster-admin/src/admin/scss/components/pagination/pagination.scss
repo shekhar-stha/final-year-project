@@ -1,0 +1,10 @@
+.pagination{
+    .page-link{
+        color: $secondary ;
+    }
+    .active > .page-link {
+        background-color: $success !important;
+        color: #ffffff;
+        border-color: $success;
+    }
+}

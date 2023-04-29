@@ -1,0 +1,94 @@
+form {
+    .segment{
+        display: flex;
+        div{
+            width: 49%;
+        }
+    }
+    .topic {
+        width: fit-content;
+    }
+
+    .header {
+        font-size: 1.2rem;
+        margin-bottom: 3rem;
+        position: relative;
+        margin-top: 2.7rem;
+    }
+
+    .header::after {
+        position: absolute;
+        content: '';
+        background-color: $primary;
+        height: 2px;
+        border-radius: 20px;
+        width: 10%;
+        left: 0;
+        bottom: -10px;
+    }
+
+    input,
+    select {
+        height: 3rem;
+    }
+}
+.my-modal {
+    width: 75vw   ; /* Occupy the 90% of the screen width */
+    max-width: 90vw;
+
+    .images{
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+        img{
+            width: 10rem;
+            border-radius: 8px;
+            border: 4px solid $info;
+        }
+    }
+} 
+
+
+.order-modal{
+    h5{
+        font-size: 17px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    span{
+        font-size: 16px;
+        font-weight: 400;
+        margin-left: 4px;
+    }
+
+    
+    .home-delivery{
+        div{
+            label{
+                width: 185px;
+                height: 44px;
+                border: 2px solid #D6D6D6;
+                border-radius: 5px;
+                background-color: #fff;
+                padding-left: 17px;
+                color: #808080;
+                cursor: pointer;
+                @media (max-width:520px) {
+                    width: 160px
+                }
+                input{
+                    cursor: pointer;
+                }
+            }
+
+            label:active{
+                border: 2px solid red;
+            }
+
+            .red-border{
+                border: 2px solid red;
+            }
+
+        }
+    }
+}

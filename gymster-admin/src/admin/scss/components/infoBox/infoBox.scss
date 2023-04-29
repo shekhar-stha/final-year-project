@@ -1,0 +1,27 @@
+.info-box {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 170px;
+    padding: 0.9rem 1rem;
+    text-align: center;
+    border-radius: 8px;
+
+    svg {
+        padding: 0.7rem;
+        border-radius: 6px;
+        background-color: $softBlack;
+        font-size: 1rem;
+        margin-bottom: 0.4rem;
+    }
+
+    h4 {
+        font-size: 1.07rem;
+        text-align: left;
+        margin-left: 0.5rem;
+    }
+
+    p {
+        font-size: 1.15rem;
+        font-weight: 600;
+        color: $secondary;
+    }
+}

@@ -1,0 +1,77 @@
+
+.tab-data {
+    background: #FFFFFF;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+
+    .form-control, .form-select {
+        padding: 0.7rem;
+        max-height: 48px;
+        font-size: 1rem;
+    }
+
+    .address-box{
+        cursor: pointer;
+        .description{
+            line-height: 24px;
+        }
+        .pills{
+            max-width: 360px;
+            overflow: hidden;
+            .pill{
+              background-color: #F6F6F6;
+              border-radius: 10px;
+                padding: 4px 8px;
+                p{
+                    font-size: 10px;
+                    font-weight: 500;
+                    line-height: 15px;
+                }
+            }
+            .active-pill{
+                background-color: #fff4ec;
+                color: $warning;
+            }
+        }
+    }
+
+    .address-box:active{
+        border: 2px solid red;
+    }
+
+    .green{
+        color: #0C9000;
+    }
+
+    .eye{
+        color: #999999;
+        top: 40%;
+        right: 1rem;
+        cursor: pointer;
+    }
+    .pw-img{
+        object-fit: cover;
+    }
+
+    .eye-block{
+        position: absolute;
+        width: 1.5rem;
+        height: 2px;
+        top: 53%;
+        right: 0.8rem;
+        background-color: #999999;
+        transform: rotate(45deg);
+        display: block;
+    }
+
+
+    .fw-500{
+        font-weight: 500;
+    }
+    .fs-14{
+        font-size: 14px;
+    }
+    .fs-13{
+        font-size: 13px;
+    }
+}
